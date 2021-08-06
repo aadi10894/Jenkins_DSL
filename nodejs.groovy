@@ -1,6 +1,6 @@
 job('NodeJS example') {
     scm {
-        git('git://github.com/aadi10894/Jenkins_DSL/blob/main/nodejs.groovy) {  node -> 
+        git('git://https://github.com/aadi10894/Jenkins_DSL.git) {  node -> 
             node / gitConfigName('aadi10894')
             node / gitConfigEmail('aadithyabharadwaj1994@gmail.com')
         }
